@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+}
+
+nav > header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+header {
+  font-size: 1.8rem;
+  text-align: left;
+}
+.side-bar {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 0;
+  z-index: 1;
+}
+
+ul > li {
+  list-style: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: block;
+  padding: 8px 6px;
+}
+
+.disc > code {
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #f7f7f7;
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.main {
+  margin-left: 300px;
+  padding: 20px;
+  margin-bottom: 110px;
+  height: 100%;
+}
+
+.main-li {
+  list-style: disc;
+  border: 0;
+  margin: 15px 0px 0px 20px;
+}
+
+.disc {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
